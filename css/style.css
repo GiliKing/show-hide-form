@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    background-color: green;
+    margin: 35px auto;
+    padding-top: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+    margin-left: 35%;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#fill_form {
+    width: 60%;
+    margin: 30px auto;
+    background-color: rgb(223,173,0, 0.9);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+#acc_span {
+    display: block;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    padding: 13px;
+    width: 80%;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+input[placeholder~="Your"] {
+    font-size: 15px;
+}
+
+#center_form {
+    width: 60%;
+    margin: auto;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: green;
+    color: #eee;
+}
+
+#btn_pad {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+span {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#align_link {
+    width: 70%;
+    margin: 10px auto;
+}
+
+#cancel_form {
+    background-color: rgba(74, 206, 74, 0);
+    color: #333;
+    border: none;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#cancel_form:hover {
+    background-color: red;
+    border-radius: 0%;
+    color: white;
+}
+
+#sign_up {
+    background-color: rgba(0, 206, 0, 0.7);
+    color: #eee;
+    display: none;
+    width: 60%;
+    margin: 10px auto;
+}
